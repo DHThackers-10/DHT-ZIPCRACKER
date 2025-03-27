@@ -16,7 +16,7 @@ Run the following commands in Termux/Linux:
 apt update && apt upgrade  
 apt install python git -y  
 pip install pyfiglet  
-git clone (link)  
+git clone https://github.com/DHThackers-10/DHT-ZIPCRACKER.git
 cd DHT-ZIPCRACKER
 ```
 # Usage
