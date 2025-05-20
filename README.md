@@ -14,8 +14,8 @@ A powerful ZIP Cracker tool with two cracking methods:
 Run the following commands in Termux/Linux:
 ```
 apt update && apt upgrade  
-apt install python git -y  
-pip install pyfiglet  
+pkg install python git unrar p7zip -y
+pip install rich pyfiglet rarfile
 git clone https://github.com/DHThackers-10/DHT-ZIPCRACKER.git
 cd DHT-ZIPCRACKER
 ```
