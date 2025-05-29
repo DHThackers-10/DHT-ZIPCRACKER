@@ -108,7 +108,7 @@ def brute_force_crack(file_path, max_length):
 # Dictionary Attack
 def wordlist_crack(file_path, wordlist_path):
     try:
-        with open(wordlist_path, 'r') as f:
+        with open(wordlist_path, 'r', errors='ignore') as f:
             words = [line.strip() for line in f if line.strip()]
     except FileNotFoundError:
         console.print(Panel("[bold red]Wordlist file not found.[/bold red]", title="Error", border_style="red"))
